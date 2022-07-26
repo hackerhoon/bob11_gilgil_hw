@@ -18,7 +18,7 @@ void dump(void* p, size_t n) {
 
 void read_file(const char *filename, uint8_t *buf, int bufsize){
     FILE *fp = fopen(filename, "r");
-	; 
+	 
 	if (fp == NULL){
 		printf("error at opening file\n");
 		exit(0);
